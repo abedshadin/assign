@@ -301,7 +301,15 @@
             padding: 10px;
 
         }
-        
+        .subs h1{
+            font-size: 24px;
+        }
+        .subs p{
+            font-size: 16px;
+        }
+        footer p{
+            font-size: 14px;
+        }
     }
 
 
