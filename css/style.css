@@ -301,6 +301,10 @@
             padding: 10px;
 
         }
+        .products {
+            padding: 10px;
+
+        }
         .subs h1{
             font-size: 24px;
         }
@@ -356,6 +360,10 @@
         }
 
         .products .single-product {
+            padding: 10px;
+
+        }
+        .products {
             padding: 10px;
 
         }
