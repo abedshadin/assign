@@ -63,12 +63,14 @@
         border: none;
 
     }
+
     .link-button a:hover {
-        border:6px solid #E02C6D;
+        border: 6px solid #E02C6D;
         font-size: 18px;
         transition: 0.5s;
-        
+
     }
+
     /* popular collection */
 
     .popular {
@@ -306,17 +308,21 @@
             padding: 10px;
 
         }
+
         .products {
             padding: 10px;
 
         }
-        .subs h1{
+
+        .subs h1 {
             font-size: 24px;
         }
-        .subs p{
+
+        .subs p {
             font-size: 16px;
         }
-        footer p{
+
+        footer p {
             font-size: 14px;
         }
     }
@@ -368,8 +374,9 @@
             padding: 10px;
 
         }
+
         .products {
-            padding: 10px;
+            padding: 0px;
 
         }
     }
