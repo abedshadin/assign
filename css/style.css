@@ -6,9 +6,19 @@ padding: 0;
 
 
 
-
-
-
+.web-logo{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 8%;
+    justify-content: left;
+    margin-top:25px ;
+}
+.web-logo h1{
+    
+}
+.logo-text{
+    width: 50%;
+}
 
 h1{
     font-size: 50px;
@@ -24,21 +34,22 @@ h1{
 }
 .text{
     width: 50%;
-    padding-left: 5%;
-    overflow: hidden;
    
 }
 .photo img{
     width: 80%;
 }
 .link-button{
+    margin-top: 30px;
+}
+.link-button a{
     text-decoration: none;
     background-color: #E02C6D;
-    border-radius: 5px;
+    border-radius: 20px;
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    
+    border: none;
     
 }
 
@@ -76,6 +87,7 @@ h1{
 
 .sec-title{
     text-align: center;
+    margin-bottom: 25px;
 }
 
 
@@ -143,6 +155,41 @@ font-weight: 700;
 }
 
 
+.subs{
+    margin-top:15px;
+    background-color: #c3c3cf44;
+    text-align: center;
+    padding: 25px;
+}
+.subs h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.subs p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subs input{
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.subs button{
+    border-radius: 15px;
+    text-align: center;
+    padding: 12px;
+    background-color: #E02C6D;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+
 
 footer{
     background-color: #0A0826;
@@ -183,8 +230,8 @@ footer p{
         }
 
         .text{
-            width: 50%;
-            overflow: hidden;
+            width: 100%;
+           
             order: 2;
            
         }
@@ -194,6 +241,59 @@ footer p{
         .photo img{
             width:100%;
         }
+
+        .text h1{
+            font-size: 28px;
+            text-align: center;
+          
+           
+        }
+
+        .text p{
+            font-size: 14px;
+            text-align: center;
+            
+           
+        }
+        .link-button a{
+            text-decoration: none;
+            background-color: #E02C6D;
+            border-radius: 20px;
+            color: white;
+            font-weight: 700;
+            padding: 10px 40px;
+            border: none;
+          
+            
+        }
+        
+
+        .link-button{
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        header{
+            
+            margin-bottom: 50px;
+            
+        }
+        .web-logo{
+           display: none;
+        }
+       .mobile-logo{
+           display: flex;
+           text-align: center;
+margin-top:25px ;
+           justify-content: center;
+
+       }
+
+       .mobile-logo h1{
+       font-size: 22px;
+       font-weight: 700;
+
+    }
 
 }
 
