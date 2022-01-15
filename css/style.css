@@ -63,7 +63,12 @@
         border: none;
 
     }
-
+    .link-button a:hover {
+        border:6px solid #E02C6D;
+        font-size: 18px;
+        transition: 0.5s;
+        
+    }
     /* popular collection */
 
     .popular {
